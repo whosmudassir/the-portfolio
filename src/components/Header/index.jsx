@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import logo from "../../assets/icons/skull.svg";
 
 const Header = () => {
   return (
@@ -7,12 +8,12 @@ const Header = () => {
       <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-2 ">
           <div class="flex items-center">
-            {/* <Image
+            <Image
               src={logo}
               alt="Picture of the author"
-              width={55}
-              height={-50}
-            /> */}
+              width={28}
+              height={28}
+            />
           </div>
           <div class="text-center flex gap-5">
             <p class="text-xl font-semibold text-gray-900 tracking-tight">
