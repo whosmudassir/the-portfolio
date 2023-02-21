@@ -1,38 +1,36 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../assets/icons/skull.svg";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <nav class="bg-white bg-opacity-75 backdrop-blur-md fixed top-0 left-0 right-0 z-50">
       <div class="container mx-auto px-4">
-        <div class="flex justify-between items-center py-2 ">
+        <div class="flex justify-between items-center py-4 ">
           <div class="flex items-center">
             <Image
               src={logo}
               alt="Picture of the author"
-              width={28}
-              height={28}
+              width={24}
+              height={24}
             />
           </div>
-          <div class="text-center flex gap-5">
-            <p class="text-xl font-semibold text-gray-900 tracking-tight">
-              Brand Name
+          <div class="text-center flex gap-10">
+            <p class="text-l font-semibold text-gray-900 tracking-tight">
+              <Link href="/">Home</Link>
             </p>{" "}
-            <p class="text-xl font-semibold text-gray-900 tracking-tight">
-              Brand Name
+            <p class="text-l font-semibold text-gray-900 tracking-tight">
+              <Link href="/work">Work</Link>
             </p>{" "}
-            <p class="text-xl font-semibold text-gray-900 tracking-tight">
-              Brand Name
+            <p class="text-l font-semibold text-gray-900 tracking-tight">
+              <Link href="/blog">Blog</Link>
             </p>{" "}
-            <p class="text-xl font-semibold text-gray-900 tracking-tight">
-              Brand Name
+            <p class="text-l font-semibold text-gray-900 tracking-tight">
+              <Link href="/about">About</Link>
             </p>
           </div>
-          <div class="flex items-center">
-            <img class="h-8 w-auto mr-2" src="/path/to/logo.png" alt="Logo" />
-            <img class="h-8 w-auto" src="/path/to/logo.png" alt="Logo" />
-          </div>
+          <div class="flex items-center"></div>
         </div>
       </div>
     </nav>
