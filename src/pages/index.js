@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { motion } from "framer-motion";
-import Header from "@/components/Header";
-import Card from "@/components/Card";
+
+import Card from "../components/Card";
 
 const inter = Inter({ subsets: ["latin"] });
 
