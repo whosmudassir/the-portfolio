@@ -4,7 +4,13 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import { motion } from "framer-motion";
 
-import Card from "../components/Card";
+import IntroCard from "../components/Cards/IntroCard";
+import GithubCard from "../components/Cards/GithubCard";
+import ResumeCard from "../components/Cards/ResumeCard";
+import ExperienceCard from "../components/Cards/ExperienceCard";
+import SkillsCard from "../components/Cards/SkillsCard";
+import PhoneCard from "../components/Cards/PhoneCard";
+import EmailCard from "../components/Cards/EmailCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,15 +32,22 @@ export default function Home() {
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
         {/* <div className={"col-span-2 w-full "}> */}
-        <Card />
+        <IntroCard />
         {/* </div> */}
+        <motion.div className={"grid grid-rows-1 grid-cols-2 gap-4 "}>
+          <motion.div className={"col-span-2"}>
+            <ResumeCard />
+          </motion.div>
+          <motion.div className="row-span-1">
+            <PhoneCard />
+          </motion.div>
+          <EmailCard />
+        </motion.div>
 
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <GithubCard />
+
+        <ExperienceCard />
+        <SkillsCard />
       </motion.div>
     </div>
   );

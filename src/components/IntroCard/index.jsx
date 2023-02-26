@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { imgArray } from "../../data/loopImages";
+import { imgArray } from "../../../data/loopImages";
 
 const Card = () => {
   const [browseImg, setBrowseImg] = useState(0);
