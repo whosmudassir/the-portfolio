@@ -11,17 +11,31 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div
-      className={
-        "flex-1 flex-col pt-[50px] grid grid-cols-4 gap-4 md:grid-cols-6"
-      }
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
     >
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <motion.div
+        className={
+          "mt-[60px] grid  gap-4 lg:grid-cols-3 flex-wrap w-4/5 md:grid-cols-2 sm:grid-cols-1"
+        }
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+      >
+        <div className={"col-span-2 w-full "}>
+          <Card />
+        </div>
+
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </motion.div>
     </div>
   );
 }
