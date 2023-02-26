@@ -12,12 +12,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
-            <Image
+            {/* <Image
               src={logo}
               alt="Picture of the author"
               width={24}
               height={24}
-            />
+            /> */}
           </div>
           <div className="text-center flex gap-10">
             <p
