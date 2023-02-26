@@ -25,9 +25,9 @@ export default function Home() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
-        <div className={"col-span-2 w-full "}>
-          <Card />
-        </div>
+        {/* <div className={"col-span-2 w-full "}> */}
+        <Card />
+        {/* </div> */}
 
         <Card />
         <Card />
