@@ -3,7 +3,9 @@ import Image from "next/image";
 import { imgArray } from "../../../data/loopImages";
 
 const IntroCard = () => {
-  const [browseImg, setBrowseImg] = useState(0);
+  const [browseImg, setBrowseImg] = useState(
+    Math.floor(Math.random() * imgArray.length)
+  );
 
   const loopThroughImgs = () => {
     const randomIndex = Math.floor(Math.random() * imgArray.length);
