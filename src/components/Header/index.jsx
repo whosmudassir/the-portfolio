@@ -41,13 +41,6 @@ const Header = () => {
             >
               <Link href="/blog">Blog</Link>
             </p>
-            <p
-              className={`text-l font-semibold tracking-tight ${
-                router.pathname === "/about" ? "text-blue-600" : "text-gray-900"
-              }`}
-            >
-              <Link href="/about">About</Link>
-            </p>
           </div>
           <div className="flex items-center"></div>
         </div>
