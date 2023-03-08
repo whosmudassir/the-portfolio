@@ -14,6 +14,7 @@ import EmailCard from "../components/Cards/EmailCard";
 import LinkedInCard from "../components/Cards/LinkedInCard";
 import InstagramCard from "../components/Cards/InstagramCard";
 import TitleCard from "../components/Cards/TitleCard";
+import WorkCard from "../components/Cards/WorkCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -37,7 +38,7 @@ export default function Home() {
         {/* <div className={"col-span-2 w-full "}> */}
         <IntroCard />
         {/* </div> */}
-        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-4 "}>
+        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-3 "}>
           <motion.div className={"col-span-3"}>
             <TitleCard />
           </motion.div>
@@ -55,11 +56,18 @@ export default function Home() {
           <ExperienceCard />
         </motion.div>
 
-        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-4 "}>
-          <GithubCard /> <LinkedInCard />
-          <InstagramCard />
-          <motion.div className={"col-span-3"}>
+        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-3 "}>
+          <motion.div className={"row-span-1 col-span-1"}>
+            <GithubCard />
+          </motion.div>
+          <motion.div className={"row-span-1 col-span-1"}>
+            <LinkedInCard />
+          </motion.div>
+          <motion.div className={"row-span-1 col-span-1"}>
             <InstagramCard />
+          </motion.div>
+          <motion.div className={"col-span-3 row-span-2"}>
+            <WorkCard />
           </motion.div>
         </motion.div>
       </motion.div>
