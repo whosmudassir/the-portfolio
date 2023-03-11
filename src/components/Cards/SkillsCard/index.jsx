@@ -18,7 +18,7 @@ const SkillsCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#f8f8f8] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col items-center justify-center p-[10px]"
+      className="h-full bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col items-center justify-center p-[10px]"
       //   onClick={loopThroughImgs}
     >
       <div>
