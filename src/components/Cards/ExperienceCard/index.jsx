@@ -6,7 +6,7 @@ const ExperienceCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#f8f8f8] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col items-center justify-center p-[10px]"
+      className="h-full bg-[#F7F39E] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col items-center justify-center p-[10px]"
       //   onClick={loopThroughImgs}
     >
       <div>
@@ -19,7 +19,7 @@ const ExperienceCard = () => {
           <p>
             Software Engineer - II <br /> Aug 2022 - present
           </p>
-          <div className="h-8 w-0.5 bg-indigo-500 mx-auto my-2"></div>
+          <div className="h-8 w-0.5 bg-[#9EA3F7] mx-auto my-2"></div>
           <p>
             Software Engineer - I <br /> Aug 2021 - Aug 2022
           </p>

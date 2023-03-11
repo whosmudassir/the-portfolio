@@ -6,7 +6,7 @@ const EmailCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[120px] bg-[#65dff7] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around"
+      className="h-[120px] bg-[#9edef7] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around"
       //   onClick={loopThroughImgs}
     >
       <div>
