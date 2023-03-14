@@ -6,7 +6,7 @@ const WorkCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[100px] bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around"
+      className="h-[200px] bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around"
       //   onClick={loopThroughImgs}
     >
       <div>
