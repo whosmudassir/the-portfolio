@@ -1,15 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import doc from "../../../assets/icons/doc.svg";
+import happy from "../../../assets/images/happy-mac.png";
 
 const WorkCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[180px] bg-[#f8f8f8] w-full rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[30px]"
+      className="h-[100px] bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around"
       //   onClick={loopThroughImgs}
     >
-      <p>Work Card</p>
+      <div>
+        <Image src={happy} alt="img" width={65} height={65} />
+      </div>
+      <p>Work</p>
     </div>
   );
 };
