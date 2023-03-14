@@ -7,7 +7,7 @@ const LanguageWithIcon = ({ icon, text }) => {
     <div>
       <motion.div className="flex flex-row items-center py-[2px]">
         <Image src={icon} alt="img" width={30} height={30} />{" "}
-        <p className="pl-[14px]">{text}</p>
+        <p className="pl-[14px] text-base font-Inter capitalize">{text}</p>
       </motion.div>
     </div>
   );
