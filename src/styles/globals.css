@@ -28,3 +28,55 @@
     font-display: swap;
   }
 }
+
+.chat-sent-01 {
+  position: absolute;
+  font-size: 16px;
+  padding: 12px;
+  background: #9ef7c6;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  width: fit-content;
+  margin-bottom: 0px;
+  left: 20px;
+  top: 20px;
+}
+
+.chat-sent-02 {
+  position: absolute;
+  font-size: 16px;
+  padding: 12px;
+  background: #9ef7c6;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  width: fit-content;
+  margin-bottom: 0px;
+  left: 20px;
+  top: 70px;
+}
+
+.chat-receive {
+  margin-left: auto;
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 16px;
+  padding: 12px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  width: fit-content;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  color: "#ffffff";
+}
+
+.link-text {
+  color: rgb(82, 82, 82);
+  text-decoration: underline;
+  cursor: pointer;
+}
