@@ -12,12 +12,16 @@ const WorkCard = () => {
         <Image src={happy} alt="img" width={"100%"} height={"200px"} />
       </div> */}
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <p className="chat-sent-01">Hey</p>
-        <p className="chat-sent-02">
+        <p className="chat-sent-01 font-Inter font-regular text-sm">Hey</p>
+        <p className="chat-sent-02 font-Inter font-regular text-sm">
           Built this chat app <br />{" "}
-          <p className="link-text">https://mudassir-chatter.web.app/</p>
+          <p className="link-text  font-Inter font-regular text-sm">
+            https://mudassir-chatter.web.app/
+          </p>
         </p>
-        <p className="chat-receive">Awesome 🔥</p>
+        <p className="chat-receive  font-Inter font-regular text-sm">
+          Awesome 🔥
+        </p>
       </div>
     </div>
   );
