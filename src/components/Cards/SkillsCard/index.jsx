@@ -21,7 +21,7 @@ const SkillsCard = () => {
       className="h-full bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col items-center justify-center p-[30px]"
       //   onClick={loopThroughImgs}
     >
-      <div className="font-Inter font-medium text-lg self-start pb-[10px] ">
+      <div className="font-Inter font-medium text-lg self-start pb-[10px] text-[#363947]">
         <p>Skills</p>
       </div>
 
