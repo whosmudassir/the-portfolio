@@ -10,7 +10,9 @@ const TitleCard = () => {
       //   onClick={loopThroughImgs}
     >
       <div>
-        <p className="font-Inter font-medium text-lg">FrontEnd Developer</p>
+        <p className="font-Inter font-bold text-[#474636] text-lg">
+          FrontEnd Developer
+        </p>
       </div>
     </div>
   );

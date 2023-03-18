@@ -23,8 +23,9 @@ const IntroCard = () => {
       </div>
 
       <div>
-        <p className="font-Inter font-medium text-base">Hey there ! I'm,</p>
-        <p className="font-Inter font-medium text-lg">Mudassir Khan</p>
+        <p className="font-Inter font-bold text-3xl text-[#394736]">
+          Mudassir <br /> Khan
+        </p>
       </div>
     </div>
   );
