@@ -15,6 +15,7 @@ import LinkedInCard from "../components/Cards/LinkedInCard";
 import InstagramCard from "../components/Cards/InstagramCard";
 import TitleCard from "../components/Cards/TitleCard";
 import WorkCard from "../components/Cards/WorkCard";
+import BlogCard from "../components/Cards/BlogCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +30,7 @@ export default function Home() {
     >
       <motion.div
         className={
-          "mt-[60px] grid  gap-3 grid-row-5  lg:grid-cols-3 flex-wrap w-[87%] md:grid-cols-1 sm:grid-cols-1"
+          "mt-[60px] mb-[60px] grid  gap-3  lg:grid-cols-3 flex-wrap w-[90%] md:grid-cols-1 sm:grid-cols-1"
         }
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -49,14 +50,8 @@ export default function Home() {
             <ResumeCard />
           </motion.div>
         </motion.div>
-        <motion.div className={"row-span-2"}>
-          <SkillsCard />
-        </motion.div>
-        <motion.div className={"row-span-2"}>
-          <ExperienceCard />
-        </motion.div>
-
-        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-3 "}>
+        <ExperienceCard />
+        <motion.div className={"grid  grid-cols-3 gap-3 "}>
           <motion.div className={"row-span-1 col-span-1"}>
             <GithubCard />
           </motion.div>
@@ -66,10 +61,22 @@ export default function Home() {
           <motion.div className={"row-span-1 col-span-1"}>
             <InstagramCard />
           </motion.div>
-          <motion.div className={"col-span-3 row-span-2"}>
+          <motion.div className={"row-span-2 col-span-3"}>
             <WorkCard />
           </motion.div>
         </motion.div>
+
+        <motion.div className={"col-span-1 row-span-2"}>
+          <SkillsCard />
+        </motion.div>
+        {/* <motion.div className={"row-span-2"}>
+          <ExperienceCard />
+        </motion.div> */}
+
+        {/* <motion.div className={"row-span-2"}>
+          <WorkCard />
+        </motion.div> */}
+        <BlogCard />
       </motion.div>
     </div>
   );
