@@ -6,7 +6,7 @@ const ExperienceCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[300px] p-[30px] bg-[#F7F39E] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col  "
+      className="h-[300px] p-[30px] bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col  "
       //   onClick={loopThroughImgs}
     >
       <div className="font-Inter font-medium text-lg self-start pb-[10px] text-[#474636]">
@@ -15,7 +15,7 @@ const ExperienceCard = () => {
 
       <div className="flex  flex-col items-center justify-center">
         <LanguageWithIcon icon={geekyants} text={"GeekyAnts"} />
-        <div className="flex flex-col items-center justify-center text-center font-Inter text-base  pt-[8px] ">
+        <div className="flex flex-col items-center justify-center text-center font-Inter font-medium text-base  pt-[8px] ">
           <p>
             Software Engineer - II <br />{" "}
             <p className="text-xs">Aug 2022 - present</p>
