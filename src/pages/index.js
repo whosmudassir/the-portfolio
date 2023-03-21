@@ -16,6 +16,8 @@ import InstagramCard from "../components/Cards/InstagramCard";
 import TitleCard from "../components/Cards/TitleCard";
 import WorkCard from "../components/Cards/WorkCard";
 import BlogCard from "../components/Cards/BlogCard";
+import MoreBlogs from "../components/Cards/MoreBlogs";
+import MoreProjects from "../components/Cards/MoreProjects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -69,6 +71,7 @@ export default function Home() {
         <motion.div className={"col-span-1 row-span-2"}>
           <SkillsCard />
         </motion.div>
+
         {/* <motion.div className={"row-span-2"}>
           <ExperienceCard />
         </motion.div> */}
@@ -77,6 +80,9 @@ export default function Home() {
           <WorkCard />
         </motion.div> */}
         <BlogCard />
+        <MoreProjects />
+
+        <MoreBlogs />
       </motion.div>
     </div>
   );
