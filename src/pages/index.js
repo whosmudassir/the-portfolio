@@ -55,10 +55,10 @@ export default function Home() {
         <ExperienceCard />
         <motion.div className={"grid  grid-cols-3 gap-3 "}>
           <motion.div className={"row-span-1 col-span-1"}>
-            <GithubCard />
+            <LinkedInCard />
           </motion.div>
           <motion.div className={"row-span-1 col-span-1"}>
-            <LinkedInCard />
+            <GithubCard />
           </motion.div>
           <motion.div className={"row-span-1 col-span-1"}>
             <InstagramCard />

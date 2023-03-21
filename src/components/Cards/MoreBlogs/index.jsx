@@ -5,7 +5,7 @@ const MoreBlogs = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[220px] bg-[#f8f8f8] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[20px]"
+      className="h-[220px]  bg-[#ebecff] w-full lg:mt-[-30px]  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[20px]"
       //   onClick={loopThroughImgs}
     >
       {/* <div>
