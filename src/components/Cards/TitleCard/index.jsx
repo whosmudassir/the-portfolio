@@ -6,7 +6,7 @@ const TitleCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#F7F39E] w-full rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[30px]"
+      className="h-full bg-[#f5f1ab] w-full rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[30px]"
       //   onClick={loopThroughImgs}
     >
       <div>

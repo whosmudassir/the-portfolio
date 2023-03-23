@@ -5,7 +5,7 @@ const MoreProjects = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-[220px] bg-[#F7F39E]  w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[20px]"
+      className="h-[220px] bg-[#f5f1ab]  w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[20px]"
       //   onClick={loopThroughImgs}
     >
       {/* <div>
