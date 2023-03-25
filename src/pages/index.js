@@ -77,9 +77,10 @@ export default function Home() {
         </motion.div>
 
         {/* block */}
-        <BlogCard />
-        <MoreProjects />
         <MoreBlogs />
+        <MoreProjects />
+
+        <BlogCard />
       </motion.div>
     </div>
   );
