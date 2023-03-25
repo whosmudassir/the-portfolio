@@ -38,9 +38,9 @@ export default function Home() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
-        {/* <div className={"col-span-2 w-full "}> */}
         <IntroCard />
-        {/* </div> */}
+
+        {/* block */}
         <motion.div className={"grid grid-rows-1 grid-cols-3 gap-3 "}>
           <motion.div className={"col-span-3"}>
             <TitleCard />
@@ -52,7 +52,10 @@ export default function Home() {
             <ResumeCard />
           </motion.div>
         </motion.div>
+
+        {/* block */}
         <ExperienceCard />
+
         <motion.div className={"grid  grid-cols-3 gap-3 "}>
           <motion.div className={"row-span-1 col-span-1"}>
             <LinkedInCard />
@@ -68,20 +71,14 @@ export default function Home() {
           </motion.div>
         </motion.div>
 
+        {/* block */}
         <motion.div className={"col-span-1 row-span-2"}>
           <SkillsCard />
         </motion.div>
 
-        {/* <motion.div className={"row-span-2"}>
-          <ExperienceCard />
-        </motion.div> */}
-
-        {/* <motion.div className={"row-span-2"}>
-          <WorkCard />
-        </motion.div> */}
+        {/* block */}
         <BlogCard />
         <MoreProjects />
-
         <MoreBlogs />
       </motion.div>
     </div>
