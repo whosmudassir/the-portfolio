@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const MsftsRep = () => {
+const MovieBox = () => {
   return (
     <a href="https://mudassir-chatter.web.app/" target="_blank">
       <div
@@ -26,4 +26,4 @@ const MsftsRep = () => {
   );
 };
 
-export default MsftsRep;
+export default MovieBox;
