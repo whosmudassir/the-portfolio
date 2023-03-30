@@ -1,18 +1,21 @@
 import React from "react";
 import Image from "next/image";
-import doc from "../../../assets/icons/doc.svg";
+import sparkling from "../../../assets/images/sparkling.png";
 
 const TitleCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#f5f1ab] w-full rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[30px]"
+      className="h-full bg-[#f5f1ab] w-full rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-center p-[30px]"
       //   onClick={loopThroughImgs}
     >
       <div>
         <p className="font-Inter font-bold text-[#474636] text-lg">
           FrontEnd Developer
         </p>
+      </div>
+      <div className="absolute top-[20px] left-[30px]">
+        <Image src={sparkling} alt="img" width={50} height={50} />
       </div>
     </div>
   );
