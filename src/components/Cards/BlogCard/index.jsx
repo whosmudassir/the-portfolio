@@ -10,7 +10,7 @@ const BlogCard = () => {
     >
       <div
         style={{ userSelect: "none" }}
-        className="lg:mt-[-118px] rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out"
+        className="lg:mt-[-114px] rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out"
       >
         <Image
           src={blogpic}
