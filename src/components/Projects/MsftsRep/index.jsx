@@ -1,25 +1,30 @@
 import React from "react";
 import Image from "next/image";
+import store from "../../../assets/images/store-mock.png";
 
 const MsftsRep = () => {
   return (
     <a href="https://mudassir-chatter.web.app/" target="_blank">
       <div
         style={{ userSelect: "none" }}
-        className="h-[220px] bg-[#f8f8f8] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-center justify-around p-[20px]"
+        className="h-[360px]  bg-[#f5f1ab] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-start justify-end p-[20px] overflow-hidden"
       >
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <p className="chat-sent-01 font-Inter font-regular text-sm">Hey</p>
-          <p className="chat-sent-02 font-Inter font-regular text-sm">
-            Built this chat app <br />{" "}
-            <span className="link-text  font-Inter font-regular text-sm">
-              https://mudassir-chatter.web.app/
-            </span>
+        <div className="font-Inter  font-bold text-3xl  pr-[30px]  text-[#474636] z-[1]">
+          <p>MsftsRep</p>
+          <p className="font-Inter font-medium text-lg">
+            Urban fashion, redefined
           </p>
-
-          <p className="chat-receive  font-Inter font-regular text-sm">
-            Awesome 🔥
-          </p>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            position: "absolute",
+            left: "0px",
+            bottom: "0px",
+          }}
+        >
+          <Image src={store} alt="img" width={500} height={500} />
         </div>
       </div>
     </a>

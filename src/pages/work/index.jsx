@@ -35,10 +35,8 @@ export default function Work() {
 
         {/* block */}
         <MsftsRep />
-
-        <motion.div className={"grid  grid-cols-3 gap-3 "}>
-          <MovieBox />
-        </motion.div>
+        <MovieBox />
+        <motion.div className={"grid  grid-cols-3 gap-3 "}></motion.div>
 
         {/* block */}
         <motion.div className={"col-span-1 row-span-2"}>
