@@ -15,7 +15,7 @@ const IntroCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#9EF7C6] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex flex-col items-center justify-around p-[30px]"
+      className="h-full bg-[#9EF7C6] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex flex-col items-center justify-between p-[30px] "
       onClick={loopThroughImgs}
     >
       <div>
@@ -23,7 +23,7 @@ const IntroCard = () => {
       </div>
 
       <div>
-        <p className="font-Inter font-bold text-3xl text-[#394736] mt-[-40px]">
+        <p className="font-Inter font-bold text-3xl text-[#394736] pb-[30px]">
           Mudassir Khan
         </p>
       </div>
