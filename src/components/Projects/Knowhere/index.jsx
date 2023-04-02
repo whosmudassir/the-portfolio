@@ -1,0 +1,32 @@
+import React from "react";
+import Image from "next/image";
+import knowhere from "../../../assets/images/knowhere.png";
+
+const Knowhere = () => {
+  return (
+    <a href="https://github.com/whosmudassir/knowhere" target="_blank">
+      <div
+        style={{ userSelect: "none" }}
+        className="h-[400px]  bg-[#f5f1ab] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-start justify-start p-[20px] overflow-hidden"
+      >
+        <div className="font-Inter  font-bold text-3xl  pl-[30px] pt-[10px]  text-[#474636] z-[1]">
+          <p>React Native</p>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            position: "absolute",
+            right: "60px",
+            bottom: "0px",
+          }}
+        >
+          <Image src={knowhere} alt="img" width={300} height={300} />
+        </div>
+      </div>
+    </a>
+  );
+};
+
+export default Knowhere;

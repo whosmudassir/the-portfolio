@@ -8,6 +8,7 @@ import Chatter from "../../components/Projects/Chatter";
 import MsftsRep from "../../components/Projects/MsftsRep";
 import RainbowUI from "../../components/Projects/RainbowUI";
 import MovieBox from "../../components/Projects/MovieBox";
+import Knowhere from "../../components/Projects/Knowhere";
 
 export default function Work() {
   return (
@@ -20,28 +21,34 @@ export default function Work() {
     >
       <motion.div
         className={
-          "mt-[60px] mb-[60px] grid  gap-3  lg:grid-cols-2 flex-wrap w-[90%] md:grid-cols-1 sm:grid-cols-1"
+          "mt-[60px] mb-[60px] grid  gap-3  flex-wrap w-[90%] lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1"
         }
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
       >
         {/* block */}
-        <motion.div className={"grid grid-rows-1 grid-cols-3 gap-3 "}>
-          <motion.div className={"col-span-3"}>
-            <Chatter />
-          </motion.div>
-        </motion.div>
-
-        {/* block */}
-        <MsftsRep />
-        <MovieBox />
-        <motion.div className={"grid  grid-cols-3 gap-3 "}></motion.div>
-
-        {/* block */}
-        <motion.div className={"col-span-1 row-span-2"}>
+        <motion.div className={"col-span-1"}>
           <RainbowUI />
         </motion.div>
+
+        <motion.div className={"col-span-2"}>
+          <Chatter />
+        </motion.div>
+
+        <motion.div className={"col-span-1"}>
+          <MsftsRep />
+        </motion.div>
+        {/* block */}
+        <motion.div className={"col-span-2"}>
+          <Knowhere />
+        </motion.div>
+
+        <motion.div className={"col-span-2"}>
+          <MovieBox />
+        </motion.div>
+
+        {/* block */}
 
         {/* block */}
       </motion.div>
