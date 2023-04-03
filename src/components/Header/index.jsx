@@ -14,21 +14,21 @@ const Header = () => {
           <div className="flex items-center"></div>
           <div className="text-center flex gap-10">
             <p
-              className={`text-l font-semibold tracking-tight ${
+              className={`text-l font-Inter font-medium tracking-tight ${
                 router.pathname === "/" ? "text-blue-600" : "text-gray-900"
               }`}
             >
               <Link href="/">Home</Link>
             </p>
             <p
-              className={`text-l font-semibold tracking-tight ${
+              className={`text-l font-Inter font-medium  tracking-tight ${
                 router.pathname === "/work" ? "text-blue-600" : "text-gray-900"
               }`}
             >
               <Link href="/work">Work</Link>
             </p>
             <p
-              className={`text-l font-semibold tracking-tight ${
+              className={`text-l font-Inter font-medium  tracking-tight ${
                 router.pathname === "/blog" ? "text-blue-600" : "text-gray-900"
               }`}
             >
