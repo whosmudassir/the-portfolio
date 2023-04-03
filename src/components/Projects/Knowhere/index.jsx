@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import knowhere from "../../../assets/images/knowhere.png";
+import sparkling from "../../../assets/images/sparkling.png";
 
 const Knowhere = () => {
   return (
@@ -11,6 +12,10 @@ const Knowhere = () => {
       >
         <div className="font-Inter  font-bold text-3xl  pl-[30px] pt-[10px]  text-[#474636] z-[1]">
           <p>React Native</p>
+        </div>
+
+        <div className="absolute top-[20px] right-[30px]">
+          <Image src={sparkling} alt="img" width={50} height={50} />
         </div>
 
         <div

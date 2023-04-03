@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import store from "../../../assets/images/store-mock.png";
+import sparkling from "../../../assets/images/sparkling.png";
 
 const MsftsRep = () => {
   return (
@@ -12,6 +13,11 @@ const MsftsRep = () => {
         <div className="font-Inter  font-bold text-3xl  pr-[30px] pt-[10px]  text-[#474636] z-[1]">
           <p>E Commerce</p>
         </div>
+
+        <div className="absolute top-[80px] left-[40px]">
+          <Image src={sparkling} alt="img" width={50} height={50} />
+        </div>
+
         <div
           style={{
             display: "flex",

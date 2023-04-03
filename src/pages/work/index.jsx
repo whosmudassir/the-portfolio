@@ -21,7 +21,7 @@ export default function Work() {
     >
       <motion.div
         className={
-          "mt-[60px] mb-[60px] grid  gap-3  flex-wrap w-[90%] lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1"
+          "mt-[60px] mb-[60px] grid gap-3 flex-wrap w-[90%] lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1"
         }
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
