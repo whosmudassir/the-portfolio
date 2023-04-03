@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import stars from "../../../assets/icons/glare-star-icon.svg";
 import chatter from "../../../assets/images/chatter-01.png";
 
 const Chatter = () => {
@@ -11,6 +12,14 @@ const Chatter = () => {
       >
         <div className="font-Inter  font-bold text-3xl  pr-[30px] pt-[10px]   text-[#474636] z-[1]">
           <p>Chat App</p>
+        </div>
+
+        <div className="absolute bottom-[40px] right-[60px]">
+          <Image src={stars} alt="img" width={50} height={50} />
+        </div>
+
+        <div className="absolute top-[40px] left-[60px]">
+          <Image src={stars} alt="img" width={40} height={40} />
         </div>
 
         <div
