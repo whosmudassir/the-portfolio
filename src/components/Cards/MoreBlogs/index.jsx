@@ -4,7 +4,11 @@ import blog from "../../../assets/icons/blog.svg";
 
 const MoreProjects = () => {
   return (
-    <a href="https://whosmudassir.hashnode.dev/" target={"_blank"}>
+    <a
+      href="https://whosmudassir.hashnode.dev/"
+      target={"_blank"}
+      rel="noreferrer"
+    >
       <div
         style={{ userSelect: "none" }}
         className="h-[220px] p-[30px]  bg-[#ebecff]  w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col overflow-auto"

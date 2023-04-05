@@ -32,7 +32,11 @@ const Header = () => {
                 router.pathname === "/blog" ? "text-blue-600" : "text-gray-900"
               }`}
             >
-              <Link href="https://whosmudassir.hashnode.dev/" target={"_blank"}>
+              <Link
+                href="https://whosmudassir.hashnode.dev/"
+                target={"_blank"}
+                rel="noopener"
+              >
                 Blog
               </Link>
             </p>
