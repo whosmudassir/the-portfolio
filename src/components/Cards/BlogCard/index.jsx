@@ -7,6 +7,7 @@ const BlogCard = () => {
     <a
       href="https://whosmudassir.hashnode.dev/what-i-learnt-from-building-a-not-so-boring-ecommerce-app"
       target={"_blank"}
+      rel="noreferrer"
     >
       <div
         style={{ userSelect: "none" }}

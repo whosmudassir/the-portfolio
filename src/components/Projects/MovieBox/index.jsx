@@ -4,7 +4,11 @@ import moviebox from "../../../assets/images/moviebox-mock.png";
 
 const MovieBox = () => {
   return (
-    <a href="https://mudassir-moviebox.netlify.app/" target="_blank">
+    <a
+      href="https://mudassir-moviebox.netlify.app/"
+      target="_blank"
+      rel="noreferrer"
+    >
       <div
         style={{ userSelect: "none" }}
         className="h-[400px]  bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  items-center justify-around p-[20px] overflow-hidden"

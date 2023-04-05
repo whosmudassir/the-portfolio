@@ -7,6 +7,7 @@ const ResumeCard = () => {
     <a
       href="https://drive.google.com/file/d/1opMPFmZ0L_vfzZKe4MTwdSnou6TXzoxd/view?usp=sharing"
       target={"_blank"}
+      rel="noreferrer"
     >
       <div
         style={{ userSelect: "none" }}

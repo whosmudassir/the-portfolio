@@ -7,6 +7,7 @@ const LinkedInCard = () => {
     <a
       href="https://www.linkedin.com/in/mudassir-khan-08139a195"
       target="_blank"
+      rel="noreferrer"
     >
       <div
         style={{ userSelect: "none" }}

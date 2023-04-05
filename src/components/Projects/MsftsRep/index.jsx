@@ -5,7 +5,7 @@ import sparkling from "../../../assets/images/sparkling.png";
 
 const MsftsRep = () => {
   return (
-    <a href="https://msftsrep.netlify.app/" target="_blank">
+    <a href="https://msftsrep.netlify.app/" target="_blank" rel="noreferrer">
       <div
         style={{ userSelect: "none" }}
         className="h-[400px]  bg-[#f5f1ab] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-start justify-end p-[20px] overflow-hidden"

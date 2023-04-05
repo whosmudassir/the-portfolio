@@ -5,7 +5,11 @@ import chatter from "../../../assets/images/chatter-01.png";
 
 const Chatter = () => {
   return (
-    <a href="https://mudassir-chatter.web.app/" target="_blank">
+    <a
+      href="https://mudassir-chatter.web.app/"
+      target="_blank"
+      rel="noreferrer"
+    >
       <div
         style={{ userSelect: "none" }}
         className="h-[400px]  bg-[#9EF7C6] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex items-start justify-end p-[20px] overflow-hidden"
