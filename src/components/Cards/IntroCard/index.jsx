@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import { imgArray } from "../../../data/loopImages";
+import { imgArray } from "../../../data/loopImages/index";
 
 const IntroCard = () => {
   const [browseImg, setBrowseImg] = useState(
@@ -15,7 +15,7 @@ const IntroCard = () => {
   return (
     <div
       style={{ userSelect: "none" }}
-      className="h-full bg-[#9EF7C6] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex flex-col items-center justify-between p-[30px] "
+      className="h-full bg-[#9EF7C6] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex flex-col items-center justify-between p-[30px]"
       onClick={loopThroughImgs}
     >
       <div>
