@@ -9,7 +9,7 @@ import GithubCard from "../components/Cards/GithubCard";
 import ResumeCard from "../components/Cards/ResumeCard";
 import ExperienceCard from "../components/Cards/ExperienceCard";
 import SkillsCard from "../components/Cards/SkillsCard";
-import PhoneCard from "../components/Cards/PhoneCard";
+
 import EmailCard from "../components/Cards/EmailCard";
 import LinkedInCard from "../components/Cards/LinkedInCard";
 import InstagramCard from "../components/Cards/InstagramCard";
