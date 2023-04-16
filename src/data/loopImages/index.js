@@ -1,7 +1,7 @@
-import img1 from "../../assets/images/img-01.png";
-import img2 from "../../assets/images/img-02.png";
-import img3 from "../../assets/images/img-03.png";
-import img4 from "../../assets/images/img-04.png";
+import img1 from "../../assets/images/img-01.PNG";
+import img2 from "../../assets/images/img-02.PNG";
+import img3 from "../../assets/images/img-03.PNG";
+import img4 from "../../assets/images/img-04.PNG";
 import img5 from "../../assets/images/img-05.PNG";
 import img6 from "../../assets/images/img-06.PNG";
 import img7 from "../../assets/images/img-07.PNG";
@@ -17,6 +17,13 @@ import img16 from "../../assets/images/img-16.PNG";
 import img17 from "../../assets/images/img-17.PNG";
 import img18 from "../../assets/images/img-18.PNG";
 import img19 from "../../assets/images/img-19.PNG";
+import img20 from "../../assets/images/img-20.PNG";
+import img21 from "../../assets/images/img-21.PNG";
+import img22 from "../../assets/images/img-22.PNG";
+import img23 from "../../assets/images/img-23.PNG";
+import img24 from "../../assets/images/img-24.PNG";
+import img25 from "../../assets/images/img-25.PNG";
+import img26 from "../../assets/images/img-26.PNG";
 
 export const imgArray = [
   img1,
@@ -38,4 +45,11 @@ export const imgArray = [
   img17,
   img18,
   img19,
+  img20,
+  img21,
+  img22,
+  img23,
+  img24,
+  img25,
+  img26,
 ];
