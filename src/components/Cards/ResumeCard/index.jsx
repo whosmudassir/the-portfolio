@@ -5,7 +5,7 @@ import doc from "../../../assets/icons/doc.svg";
 const ResumeCard = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1opMPFmZ0L_vfzZKe4MTwdSnou6TXzoxd/view?usp=sharing"
+      href="https://drive.google.com/file/d/1aNG5CUFC1_5Tm0qPA3sjoAGicTg06JIf/view?usp=sharing"
       target={"_blank"}
       rel="noreferrer"
     >

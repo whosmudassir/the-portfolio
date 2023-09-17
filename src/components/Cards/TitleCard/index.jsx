@@ -10,12 +10,12 @@ const TitleCard = () => {
     >
       <div>
         <p className="font-Inter font-bold text-[#474636] text-lg">
-          FrontEnd Developer
+          FullStack Developer
         </p>
       </div>
-      <div className="absolute top-[20px] left-[30px]">
+      {/* <div className="absolute top-[20px] left-[30px]">
         <Image src={sparkling} alt="img" width={50} height={50} />
-      </div>
+      </div> */}
     </div>
   );
 };

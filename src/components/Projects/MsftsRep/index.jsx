@@ -13,10 +13,10 @@ const MsftsRep = () => {
         <div className="font-Inter  font-bold text-3xl  pr-[30px] pt-[10px]  text-[#474636] z-[1]">
           <p>E Commerce</p>
         </div>
-
+        {/* 
         <div className="absolute top-[80px] left-[40px]">
           <Image src={sparkling} alt="img" width={50} height={50} />
-        </div>
+        </div> */}
 
         <div
           style={{
