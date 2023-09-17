@@ -12,6 +12,7 @@ import materialui from "../../../assets/icons/material-ui.svg";
 import firebase from "../../../assets/icons/firebase.svg";
 import node from "../../../assets/icons/node.svg";
 import express from "../../../assets/images/express.png";
+import mongo from "../../../assets/icons/mongo.svg";
 import LanguageWithIcon from "../../LanguageWithIcon";
 
 const SkillsCard = () => {
@@ -33,6 +34,7 @@ const SkillsCard = () => {
         <LanguageWithIcon icon={nextjs} text={"nextjs"} />
         <LanguageWithIcon icon={node} text={"nodejs"} />
         <LanguageWithIcon icon={express} text={"expressjs"} />
+        <LanguageWithIcon icon={mongo} text={"mongoDB"} />
         <LanguageWithIcon icon={firebase} text={"firebase"} />
         <LanguageWithIcon icon={redux} text={"redux"} />
         <LanguageWithIcon icon={mobx} text={"mobx"} />
