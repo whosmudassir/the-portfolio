@@ -17,7 +17,7 @@ const ExperienceCard = () => {
         <LanguageWithIcon icon={geekyants} text={"GeekyAnts"} />
         <div className="flex flex-col items-center justify-center text-center font-Inter font-medium text-base  pt-[8px] ">
           <p>Software Engineer - III</p>
-          <p className="text-xs">Aug 2022 - present</p>
+          <p className="text-xs">Aug 2023 - present</p>
           <div className="h-8 w-0.5 bg-[#9EA3F7] mx-auto my-2"></div>
           <p>Software Engineer - II</p>
           <p className="text-xs">Aug 2022 - Aug 2023</p>
