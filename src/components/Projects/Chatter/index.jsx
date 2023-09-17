@@ -18,13 +18,13 @@ const Chatter = () => {
           <p>Chat App</p>
         </div>
 
-        <div className="absolute bottom-[40px] right-[60px]">
+        {/* <div className="absolute bottom-[40px] right-[60px]">
           <Image src={stars} alt="img" width={50} height={50} />
         </div>
 
         <div className="absolute top-[40px] left-[60px]">
           <Image src={stars} alt="img" width={40} height={40} />
-        </div>
+        </div> */}
 
         <div
           style={{
