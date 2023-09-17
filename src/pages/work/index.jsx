@@ -9,6 +9,7 @@ import MsftsRep from "../../components/Projects/MsftsRep";
 import RainbowUI from "../../components/Projects/RainbowUI";
 import MovieBox from "../../components/Projects/MovieBox";
 import Knowhere from "../../components/Projects/Knowhere";
+import Notable from "../../components/Projects/Notable";
 
 export default function Work() {
   return (
@@ -41,11 +42,13 @@ export default function Work() {
         </motion.div>
         {/* block */}
         <motion.div className={"col-span-2"}>
-          <Knowhere />
+          <Notable />
         </motion.div>
-
         <motion.div className={"col-span-2"}>
           <MovieBox />
+        </motion.div>
+        <motion.div className={"col-span-2"}>
+          <Knowhere />
         </motion.div>
 
         {/* block */}
