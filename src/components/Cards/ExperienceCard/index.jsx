@@ -9,7 +9,7 @@ const ExperienceCard = () => {
       className="h-[300px] p-[30px] bg-[#ebecff] w-full  rounded-2xl cursor-pointer hover:scale-95 transform transition duration-500 ease-in-out flex  flex-col overflow-auto "
       //   onClick={loopThroughImgs}
     >
-      <div className="font-Inter font-medium text-lg self-start pb-[10px] text-[#474636]">
+      <div className="sticky top-0 font-Inter font-medium text-lg self-start pb-[10px] text-[#474636]">
         <p>Experience</p>
       </div>
 
