@@ -5,7 +5,7 @@ import notable from "../../../assets/images/notable.png";
 const Notable = () => {
   return (
     <a
-      href="https://mudassir-moviebox.netlify.app/"
+      href="https://notable-fe.onrender.com/"
       target="_blank"
       rel="noreferrer"
     >
